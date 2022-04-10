@@ -32,7 +32,7 @@ nav img{
     margin-right: 15px;
 }
 
-/* --------------------------------------conteurdo-header---------------------------------- */
+/* -------------------------------------- conteurdo-heade r---------------------------------- */
 
 .conteurdo-header{
     display: flex;
@@ -94,7 +94,7 @@ nav img{
 
 }
 
-/*------------------------------------------- img-header ------------------------------------*/
+/*----------------------------------------- img-header ------------------------------------*/
 
 .img-header{
     background-image: url('images/container-1-imgs/sapato-header.jpg');
@@ -107,5 +107,124 @@ nav img{
     border: 5px solid white;
 }
 
-/*--------------------------------------------Responsividade----------------------------------*/
+/*------------------------------------------ Responsividade----------------------------------*/
+
+@media screen and (max-width: 1202px) {
+    .p-header {
+        width: 380px;
+    }
+
+    .h1-header {
+        width: 360px;
+    }
+
+    .img-header {
+        height: 420px;
+        width: 420px;
+    }
+
+    .texto-header {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .h1-header h1 {
+        font-size: 3.0rem;
+    }
+    
+    .p-header {
+        width: 305px;
+    }
+
+    .img-header {
+        height: 330px;
+        width: 330px;
+    }
+
+    .texto-header {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    
+    header {
+        height: 155vh;
+    }
+    
+    .conteurdo-header {
+        flex-direction: column;
+    }
+
+    .h1-header {
+        width: 410px;
+    }
+
+    .h1-header h1 {
+        font-size: 4.7rem;
+    }
+
+    .p-header {
+        width: 450px;
+    }
+
+    .img-header {
+        margin-top: 80px;
+        height: 415px;
+        width: 415px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+
+    .h1-header h1 {
+        font-size: 3rem;
+    }
+
+    .img-header {
+        height: 365px;
+        width: 365px;
+    }
+
+    .p-header {
+        width: 396px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .p-header {
+        width: 295px;
+    }
+
+    .img-header {
+        height: 320px;
+        width: 320px;
+    }
+
+
+    .h1-header h1 {
+        font-size: 2.6rem;
+    }
+
+    .h1-header {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+
+    .h1-header {
+        width: 230px;
+    }
+
+    .img-header {
+        height: 280px;
+        width: 280px;
+    }
+
+    .p-header {
+        width: 265px;
+    }
+}
 
