@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('images/container-1-imgs/fundo-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C032E;
+}
+
+nav h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+nav img{
+    margin-right: 15px;
+}
+
+/* --------------------------------------conteurdo-header---------------------------------- */
+
+.conteurdo-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.texto-header{
+    margin-right: 100px;
+}
+
+.h1-header{
+    width: 510px;
+}
+
+.h1-header h1{
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-family: 'Fjalla One';
+    font-weight: 900;
+    color: white;
+}
+
+
+.p-header{
+    width: 480px;
+    margin-top: 50px;
+}
+
+.p-header p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;    
+    line-height: 1.6;
+}
+
+
+.btn-header{
+    margin-top: 50px;
+}
+
+.btn-header button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 18px;
+    width: 205px;
+}
+
+.btn-header button:active{
+    background-color: white;
+    color: black;
+
+}
+
+/*------------------------------------------- img-header ------------------------------------*/
+
+.img-header{
+    background-image: url('images/container-1-imgs/sapato-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/*--------------------------------------------Responsividade----------------------------------*/
+
