@@ -8,7 +8,20 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 130vh;
+    height: 135vh;
+}
+
+#linha-1-header{
+    position: absolute;
+    top: 300px;
+    width: 430px;
+}
+
+#linha-2-header{
+    position: absolute;
+    right: 0;
+    top: 370px;
+    width: 430px;
 }
 
 nav{
@@ -38,7 +51,10 @@ nav img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .texto-header{
@@ -129,6 +145,19 @@ nav img{
 }
 
 @media screen and (max-width: 994px) {
+
+    
+    #linha-2-header{
+        top: 560px;
+        width: 480px;
+    }
+
+    #linha-1-header {
+        position: absolute;
+        top: 100px;
+        width: 480px;
+    }
+
     .h1-header h1 {
         font-size: 3.0rem;
     }
@@ -148,7 +177,16 @@ nav img{
 }
 
 @media screen and (max-width: 790px) {
+
+    .conteurdo-header {
+        top: 760px;
+    }    
     
+    #linha-2-header{
+        top: 700px;
+        width: 480px;
+    }
+
     header {
         height: 155vh;
     }
@@ -177,6 +215,14 @@ nav img{
 }
 
 @media screen and (max-width: 578px) {
+
+    #linha-1-header {
+        width: 400px;
+    }
+
+    #linha-2-header {
+        width: 400px;
+    }
 
     .h1-header h1 {
         font-size: 3rem;
@@ -213,6 +259,15 @@ nav img{
 }
 
 @media screen and (max-width: 406px) {
+
+    #linha-1-header {
+        width: 340px;
+    }
+
+    #linha-2-header {
+        top: 1100px;
+        width: 320px;
+    }
 
     .h1-header {
         width: 230px;
