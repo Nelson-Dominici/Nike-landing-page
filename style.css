@@ -8,7 +8,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 135vh;
+    height: auto;
 }
 
 #linha-1-header{
@@ -18,10 +18,13 @@ header{
 }
 
 #linha-2-header{
-    position: absolute;
-    right: 0;
-    top: 370px;
+    margin-top: 500px;
     width: 430px;
+}
+
+.alig-linha{
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav{
@@ -148,7 +151,6 @@ nav img{
 
     
     #linha-2-header{
-        top: 560px;
         width: 480px;
     }
 
@@ -182,13 +184,9 @@ nav img{
         top: 760px;
     }    
     
-    #linha-2-header{
-        top: 700px;
+    #linha-2-header{    
+        margin-top: 1200px;
         width: 480px;
-    }
-
-    header {
-        height: 155vh;
     }
     
     .conteurdo-header {
