@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-header{
+header {
     background-image: url('images/container-1-imgs/fundo-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -16,31 +16,31 @@ header{
     height: auto;
 }
 
-#linha-1-header{
+#linha-1-header {
     position: absolute;
     top: 300px;
     width: 430px;
 }
 
-#linha-2-header{
+#linha-2-header {
     margin-top: 500px;
     width: 430px;
     margin-bottom: 50px;
 }
 
-.alig-linha{
+.alig-linha {
     display: flex;
     justify-content: flex-end;
 }
 
-nav{
+nav {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     background-color: #0C032E;
 }
 
-nav h3{
+nav h3 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 400;
     font-size: 1.875rem;
@@ -50,31 +50,31 @@ nav h3{
     cursor: pointer;
 }
 
-nav img{
+nav img {
     margin-right: 15px;
 }
 
 /* -------------------------------------- conteurdo-heade r---------------------------------- */
 
-.conteurdo-header{
+.conteurdo-header {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 450px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.texto-header{
+.texto-header {
     margin-right: 100px;
 }
 
-.h1-header{
+.h1-header {
     width: 510px;
 }
 
-.h1-header h1{
+.h1-header h1 {
     font-size: 4.5rem;
     line-height: 1.1;
     font-family: 'Fjalla One';
@@ -83,25 +83,25 @@ nav img{
 }
 
 
-.p-header{
+.p-header {
     width: 480px;
     margin-top: 50px;
 }
 
-.p-header p{
+.p-header p {
     font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    color: white;    
+    color: white;
     line-height: 1.6;
 }
 
 
-.btn-header{
+.btn-header {
     margin-top: 50px;
 }
 
-.btn-header button{
+.btn-header button {
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid white;
     letter-spacing: 1px;
@@ -113,7 +113,7 @@ nav img{
     width: 205px;
 }
 
-.btn-header button:active{
+.btn-header button:active {
     background-color: white;
     color: black;
 
@@ -121,7 +121,7 @@ nav img{
 
 /*----------------------------------------- img-header ------------------------------------*/
 
-.img-header{
+.img-header {
     background-image: url('images/container-1-imgs/sapato-header.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -134,67 +134,68 @@ nav img{
 
 /*------------------------------------------ back-nike-img --------------------------------*/
 
-.back-nike-img{
+.back-nike-img {
     background-image: url('images/container-2-imgs/nike-back.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 70% 70%;
     background-size: cover;
     height: 90vh;
 }
 
 /*------------------------------------------ container-3 ----------------------------------*/
 
-.container-3{
+.container-3 {
     background-color: #0c032e;
     position: relative;
+    box-shadow: 40px 60px 200px 40px #0c032e;
 }
 
-.linha-direita-div3{
+.linha-direita-div3 {
     display: flex;
     justify-content: flex-end;
 }
 
-.linha-direita-div3 img{
+.linha-direita-div3 img {
     margin-top: 130px;
     width: 500px;
-    margin-bottom: 270px;
+    margin-bottom: 210px;
 }
 
-.linha-esquerda-div3{
+.linha-esquerda-div3 {
     display: flex;
     justify-content: flex-start;
 }
 
-.imgs-trio{
+.imgs-trio {
     height: 350px;
     width: 365px;
     object-fit: cover;
 }
 
-.imgs-sapapatos{
+.imgs-sapapatos {
     top: 280px;
     display: flex;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-#img-meio{
+#img-meio {
     margin-left: 20px;
     margin-right: 20px;
-} 
+}
 
-.div-li-container3{
+.div-li-container3 {
     margin-top: 20px;
     color: white;
     width: 938px;
     position: absolute;
     top: 730px;
     left: 43%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.div-li-container3 h1{
+.div-li-container3 h1 {
     color: white;
     font-size: 3rem;
     font-family: 'Fjalla One';
@@ -202,28 +203,292 @@ nav img{
     margin-bottom: 20px;
 }
 
-.div-li-container3 li{
+.div-li-container3 li {
     margin-top: 15px;
     font-size: 1.25rem;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     margin-left: 28px;
 }
 
-#li-1{
+#li-1 {
     list-style: "1. ";
 }
 
-#li-2{
+#li-2 {
     list-style: "2. ";
 }
 
-#li-3{
+#li-3 {
     list-style: "3. ";
+}
+
+/*------------------------------------------ container-4 ----------------------------------*/
+
+.container-4 {
+    background-image: url("images/container-4-imgs/container-4.jpg");
+    position: relative;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.img-texto1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+}
+
+.img-texto1 img {
+    width: 570px;
+    height: 380px;
+}
+
+.textoi {
+    width: 420px;
+    margin-right: 110px;
+}
+
+.img-texto1 h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    color: white;
+    font-family: 'Fjalla One';
+}
+
+#linha-esquerda-cont4 {
+    margin-top: 180px;
+    margin-bottom: 250px;
+    width: 760px;
+    height: 650px;
+}
+
+/* ajeitar bola */
+
+.img-texto-btn {
+    position: absolute;
+    display: flex;
+    top: 390px;
+    left: 49%;
+}
+
+.img-btn-texto {
+    background-image: url("images/container-4-imgs/2-sapatos.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    border: 4px solid white;
+    margin-right: 92px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    right: 520px;
+    top: 45px;
+}
+
+.img-btn-texto div{
+    width: 272px;
+    min-height: 65px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-right: -85px;
+    background-image: linear-gradient(#ff0a6c, #fc9512);
+}
+
+.img-btn-texto div p{
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.texto {
+    width: 520px;
+}
+
+.texto button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 18px;
+    width: 205px;
+
+}
+
+.texto p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/*----------------------------------------- container-5 -----------------------------------*/
+
+.container-5{
+    background-image: url("images/container-5-imgs/bg6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+/*----------------------------------------- container-6 -----------------------------------*/
+
+
+.container-6{
+    background-image: linear-gradient(to right, #0c032e, #2b2933);
+    color: white;
+    position: relative;
+}
+
+.container-6 h1{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-family: 'Fjalla One';
+}
+
+.container-6 li{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.25rem;    
+    line-height: 1.6
+}
+
+#seis-li-1{
+    list-style: "1. ";
+}
+
+#seis-li-2{
+    list-style: "2. ";
+}
+
+#seis-li-3{
+    list-style: "3. ";
+}
+
+
+.texto-6{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-6 div{
+    margin-top: 70px;
+    width: 950px;
+}
+
+.linha-esquerda-6{
+    margin-top: 100px;
+}
+
+.linha-direita-6{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-tenis-texto{
+    position: absolute;
+    left: 50%;
+    top: 850px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.tenis-cont6{
+    background-image: url("images/container-6-imgs/tenis-container-6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 540px;
+    border: 8px solid white;
+    border-radius: 50%;
+    object-position: 100% 100%;
+
+}
+
+.texto-cont6{
+    margin-left: 75px;
+}
+
+.texto-cont6 h1{
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Fjalla One';
+    margin-bottom: 50px;
+}
+
+.texto-cont6 p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div-p-6{
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.div-h2-6{
+    width: 410px;
+
+}
+
+.texto-cont6 button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 18px;
+    width: 205px;
+
 }
 /*------------------------------------------ Responsividade--------------------------------*/
 
 @media screen and (max-width: 1202px) {
+
+    .texto {
+        width: 450px;
+    }
+
+    .img-texto-btn {
+        left: 53%;
+    }
+
+    .img-btn-texto {
+        width: 400px;
+        height: 400px;  
+        right: 450px;
+    }
+
+    .img-btn-texto div {
+        width: 210px;
+        margin-bottom: 120px;
+    }
+
+    .img-texto1 img {
+        width: 460px;
+        object-fit: cover;
+    }
 
     .div-li-container3 {
         width: 738px;
@@ -259,7 +524,42 @@ nav img{
     }
 }
 
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 1000px) {
+
+    .img-btn-texto {
+        width: 338px;
+        height: 338px;
+        justify-content: end !important;
+        align-items: flex-end !important;
+        right: 300px;
+    
+    }    
+
+    .img-btn-texto div {
+        margin-bottom: 36px;
+        min-height: 53px;
+        position: absolute;
+        left: 130px;
+        width: 230px;    
+    }
+     
+
+    .img-texto-btn {
+        top: 310px;
+    }
+    .texto {
+        width: 350px;
+    }
+
+    .img-texto1 img {
+        width: 360px;
+        height: 271px
+    }
+
+    .textoi {
+        width: 350px;
+        margin-right: 35px;
+    }
 
     .div-li-container3 {
         width: 700px;
@@ -278,8 +578,8 @@ nav img{
         height: 262px;
         width: 235px;
     }
-    
-    #linha-2-header{
+
+    #linha-2-header {
         width: 480px;
     }
 
@@ -292,7 +592,7 @@ nav img{
     .h1-header h1 {
         font-size: 3.0rem;
     }
-    
+
     .p-header {
         width: 305px;
     }
@@ -309,18 +609,70 @@ nav img{
 
 @media screen and (max-width: 790px) {
 
+    .img-texto1 img {
+        top: 750px;        
+        width: 74vw !important;
+        transform: translate(-50%, -50%);
+    }
+
+    .img-texto-btn {
+        transform: translate(-50%, -50%);
+        top: 1490px;
+        left: 52% !important;
+    }
+
+    #linha-esquerda-cont4 {
+        margin-bottom: 1000px;
+        width: 600px;
+        height: 600px;
+    }    
+
+    .texto {
+        width: 78vw;
+    }
+
+    .textoi {
+        transform: translate(-54%, -46%);
+        position: absolute;
+        bottom: -30px;
+        width: 410px;
+    }
+
+    .img-texto1 img{
+        position: absolute;
+    }
+
+    .img-btn-texto {
+        right: 0;
+        top: -900px;
+        width: 370px;
+        height: 370px;
+        left: 0;
+    }
+
+    .img-texto1 {
+        flex-direction: column;
+        top: 290px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .img-texto1 img {
+        width: 60vw;
+        height: 370px;
+    }
 
     .div-li-container3 {
         top: 1440px;
         width: 500px;
         left: 46%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 
-    .div-li-container3 li{
+    .div-li-container3 li {
         margin-top: 20px;
     }
-    
+
 
     .imgs-sapapatos {
         flex-direction: column;
@@ -346,13 +698,13 @@ nav img{
 
     .conteurdo-header {
         top: 750px;
-    }    
-    
-    #linha-2-header{    
+    }
+
+    #linha-2-header {
         margin-top: 1200px;
         width: 480px;
     }
-    
+
     .conteurdo-header {
         flex-direction: column;
     }
@@ -376,7 +728,39 @@ nav img{
     }
 }
 
+@media screen and (max-width: 639px) {
+    #linha-esquerda-cont4 {
+        margin-bottom: 1100px;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
 @media screen and (max-width: 578px) {
+
+    .back-nike-img {
+        height: 75vh;
+    }
+
+    .textoi {
+        width: 70vw;
+    }
+
+    .img-texto1 img {
+        top: 730px;
+    }
+
+    .img-texto1 h1 {
+        font-size: 2.9rem;
+    }
+
+    #linha-esquerda-cont4 {
+        width: 450px;
+        margin-bottom: 1200px;
+        height: 450px;
+    }
+    
 
     .linha-direita-div3 img {
         width: 400px;
@@ -418,11 +802,41 @@ nav img{
 
 @media screen and (max-width: 498px) {
 
+    .img-texto1 img {
+        top: 680px;
+        height: 280px;
+    }
+
+    .img-btn-texto div {
+        width: 185px;
+    }
+
+    .textoi {
+        transform: translate(-50%, -50%);
+        width: 250PX;
+        bottom: 0;
+    }
+
+    .img-texto1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .img-btn-texto {
+        width: 310px;
+        height: 310px;
+    }
+
+    #linha-esquerda-cont4 {
+        width: 400px;
+        margin-bottom: 1300px;
+        height: 400px;
+    }
+
     .linha-direita-div3 img {
         margin-bottom: 1330px;
     }
 
-    .div-li-container3{
+    .div-li-container3 {
         top: 1570px;
         width: 280px;
     }
@@ -448,6 +862,30 @@ nav img{
 
 @media screen and (max-width: 406px) {
 
+    .textoi {
+        bottom: -50px;
+    }
+    .img-btn-texto {
+        width: 270px;
+        height: 270px;
+        top: -800px;
+    }
+
+    .img-btn-texto div {
+        left: 46px;
+    }    
+
+    .img-texto1 img {
+        top: 660px;
+    }
+
+    #linha-esquerda-cont4 {
+        width: 300px;
+        margin-bottom: 1600px;
+        height: 300px;
+    }
+
+
     .linha-direita-div3 img {
         margin-bottom: 1270px;
     }
@@ -457,7 +895,7 @@ nav img{
         width: 77vw;
     }
 
-    .div-li-container3{
+    .div-li-container3 {
         top: 1470px;
     }
 
@@ -488,3 +926,28 @@ nav img{
     }
 }
 
+@media screen and (max-width: 352px) {
+
+    .img-btn-texto {
+        top: -780px;
+        left: -8%;
+    }
+
+    #linha-2-header {
+        width: 285px;
+    }
+
+    #linha-1-header {
+        width: 295px;
+    }
+    #linha-esquerda-cont4 {
+        width: 300px;
+        margin-bottom: 1500px;
+    }
+
+    .linha-direita-div3 img {
+        width: 330px;
+        margin-top: 10px;
+        margin-bottom: 1490px;
+    }
+}
