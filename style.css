@@ -438,6 +438,7 @@ nav img {
     font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
 }
 
 .div-p-6{
@@ -465,6 +466,28 @@ nav img {
 /*------------------------------------------ Responsividade--------------------------------*/
 
 @media screen and (max-width: 1202px) {
+
+    .texto-6 div {
+        width: 760px;
+    }
+
+    .texto-6 div li{
+        margin-top: 10px;
+    }
+
+    .div-p-6 {
+        width: 411px;
+    }
+
+    .tenis-cont6{
+        width: 447px;
+        height: 447px;
+    }
+
+    .texto-cont6 h1 {
+        font-size: 3rem;
+        font-weight: 900;
+    }    
 
     .texto {
         width: 450px;
@@ -526,6 +549,18 @@ nav img {
 
 @media screen and (max-width: 1000px) {
 
+    .div-h2-6 {
+        width: 280px;
+    }
+
+    .div-p-6{
+        width: 300px;
+    }
+
+    .tenis-cont6{
+        width: 342px;
+        height: 342px;
+    }
     .img-btn-texto {
         width: 338px;
         height: 338px;
@@ -607,7 +642,49 @@ nav img {
     }
 }
 
+
+@media screen and (max-width: 882px) {
+    .texto-6 div {
+        width: 600px;
+    }
+}
+
 @media screen and (max-width: 790px) {
+
+    .div-tenis-texto {
+       flex-direction: column;
+       top: 1250px;
+    }
+
+    .linha-direita-6 img{
+        margin-bottom: 600px;
+    }
+
+    .tenis-cont6{
+        width: 488px;
+        height: 488px;
+    }
+
+    .texto-cont6{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+
+    .linha-esquerda-6 img{
+        width: 570px;    }
+
+    .texto-cont6 h1 {
+        font-size: 4.5rem;    
+    }
+
+    .div-h2-6 {
+        width: 500px;
+    }
+
+    .div-p-6 {
+        width: 500px;
+    }
+    
 
     .img-texto1 img {
         top: 750px;        
@@ -728,6 +805,13 @@ nav img {
     }
 }
 
+
+@media screen and (max-width: 708px) {
+    .texto-6 div {
+        width: 480px;
+    }
+}
+
 @media screen and (max-width: 639px) {
     #linha-esquerda-cont4 {
         margin-bottom: 1100px;
@@ -738,6 +822,42 @@ nav img {
 
 
 @media screen and (max-width: 578px) {
+
+    .texto-6 div {
+        width: 400px;
+    }
+
+    .texto-cont6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-h2-6 {
+        width: 350px;
+        margin-right: 50px;
+    }
+
+    .linha-esquerda-6 img,.linha-direita-6 img{
+        width: 460px;
+    }
+
+    .tenis-cont6 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .texto-cont6 button{
+        margin-right: 195px;
+    }
+
+    .div-p-6 {
+        width: 400px;
+    }
+
+    .texto-cont6 h1{
+        font-size: 3.7rem;
+    }
 
     .back-nike-img {
         height: 75vh;
@@ -802,6 +922,40 @@ nav img {
 
 @media screen and (max-width: 498px) {
 
+    .texto-6 div {
+        width: 320px;
+    }
+
+    .linha-esquerda-6 img, .linha-direita-6 img {
+        width: 400px;
+    }
+
+    .tenis-cont6 {
+        width: 340px;
+        height: 340px;
+    }
+
+    .texto-cont6 {
+        margin-top: 150px;
+    }
+
+    .texto-cont6 h1 {
+        font-size: 3rem;
+    }
+    
+    .div-h2-6 {
+        width: 330px;
+        margin-right: 0;
+    }    
+
+    .div-p-6 {
+        width: 340px;
+    }
+
+    .texto-cont6 button {
+        margin-right: 129px;
+    }
+
     .img-texto1 img {
         top: 680px;
         height: 280px;
@@ -833,7 +987,7 @@ nav img {
     }
 
     .linha-direita-div3 img {
-        margin-bottom: 1330px;
+        margin-bottom: 1400px
     }
 
     .div-li-container3 {
@@ -861,6 +1015,42 @@ nav img {
 }
 
 @media screen and (max-width: 406px) {
+
+    .texto-6 div {
+        width: 260px;
+    }
+
+    .div-tenis-texto {
+        top: 1400px;
+    }
+
+    .container-6 h1 {
+        font-size: 2.6rem;
+    }
+
+    .div-h2-6 {
+        width: 280px;
+    }
+
+    .div-p-6 {
+        width: 270px;
+    }
+    
+    .texto-cont6 button {
+        margin-right: 60px;
+    }
+
+    .linha-direita-6 img {
+        margin-bottom: 603px;
+    }
+
+    .linha-esquerda-6 img, .linha-direita-6 img {
+        width: 308px;
+    }
+    .tenis-cont6 {
+        width: 275px;
+        height: 275px;
+    }
 
     .textoi {
         bottom: -50px;
@@ -927,6 +1117,34 @@ nav img {
 }
 
 @media screen and (max-width: 352px) {
+
+    .texto-6 div {
+        width: 220px;
+    }
+    
+    .div-tenis-texto {
+        top: 1500px;
+    }
+
+    .div-h2-6 {
+        width: 240px;
+    }
+
+    .div-p-6 {
+        width: 240px;
+    }
+
+    .texto-cont6 button {
+        margin-right: 30px;
+    }
+
+    .linha-esquerda-6 img, .linha-direita-6 img {
+        width: 258px;
+    }
+    
+    .linha-direita-6 img {
+        margin-bottom: 740px
+    }    
 
     .img-btn-texto {
         top: -780px;
