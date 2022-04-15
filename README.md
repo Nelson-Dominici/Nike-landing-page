@@ -1,5 +1,5 @@
 <p align="center"><img src="shoes.png" width="70px" height="70px"></p>
-<h1 align="center" ><b>restaurant landing page</b></h1><div>
+<h1 align="center" ><b>/Nike landing page</b></h1><div>
 
 <h1>🚀Sobre</h1>
     <h2>Um site que inlustra um site Nike </h2>
