@@ -2,7 +2,7 @@
 <h1 align="center" ><b>Nike landing page</b></h1><div>
 
 <h1>🚀Sobre</h1>
-    <h2>Um site que inlustra um site Nike </h2>
+    <h2>Um site que inlustra uma landing page da Nike </h2>
 
 ### 📋Features
 
