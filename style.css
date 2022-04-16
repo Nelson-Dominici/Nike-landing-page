@@ -225,117 +225,6 @@ nav img {
 
 /*------------------------------------------ container-4 ----------------------------------*/
 
-.container-4 {
-    background-image: url("images/container-4-imgs/container-4.jpg");
-    position: relative;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-.img-texto1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    top: 150px;
-    transform: translate(-50%, -50%);
-}
-
-.img-texto1 img {
-    width: 570px;
-    height: 380px;
-}
-
-.textoi {
-    width: 420px;
-    margin-right: 110px;
-}
-
-.img-texto1 h1 {
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 1.1;
-    color: white;
-    font-family: 'Fjalla One';
-}
-
-#linha-esquerda-cont4 {
-    margin-top: 180px;
-    margin-bottom: 250px;
-    width: 760px;
-    height: 650px;
-}
-
-/* ajeitar bola */
-
-.img-texto-btn {
-    position: absolute;
-    display: flex;
-    top: 390px;
-    left: 49%;
-}
-
-.img-btn-texto {
-    background-image: url("images/container-4-imgs/2-sapatos.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    display: flex;
-    border: 4px solid white;
-    margin-right: 92px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: absolute;
-    right: 520px;
-    top: 45px;
-}
-
-.img-btn-texto div{
-    width: 272px;
-    min-height: 65px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    margin-right: -85px;
-    background-image: linear-gradient(#ff0a6c, #fc9512);
-}
-
-.img-btn-texto div p{
-    font-weight: 700;
-    font-size: 1.125rem;
-    color: white;
-    margin-left: 20px;
-    font-family: 'Open Sans',sans-serif;
-}
-
-.texto {
-    width: 520px;
-}
-
-.texto button {
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid white;
-    letter-spacing: 1px;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 17px;
-    color: white;
-    padding: 18px;
-    width: 205px;
-
-}
-
-.texto p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
-    color: white;
-    margin-bottom: 40px;
-    line-height: 1.6;
-}
 
 /*----------------------------------------- container-5 -----------------------------------*/
 
@@ -489,30 +378,6 @@ nav img {
         font-weight: 900;
     }    
 
-    .texto {
-        width: 450px;
-    }
-
-    .img-texto-btn {
-        left: 53%;
-    }
-
-    .img-btn-texto {
-        width: 400px;
-        height: 400px;  
-        right: 450px;
-    }
-
-    .img-btn-texto div {
-        width: 210px;
-        margin-bottom: 120px;
-    }
-
-    .img-texto1 img {
-        width: 460px;
-        object-fit: cover;
-    }
-
     .div-li-container3 {
         width: 738px;
         left: 40%;
@@ -560,40 +425,6 @@ nav img {
     .tenis-cont6{
         width: 342px;
         height: 342px;
-    }
-    .img-btn-texto {
-        width: 338px;
-        height: 338px;
-        justify-content: end !important;
-        align-items: flex-end !important;
-        right: 300px;
-    
-    }    
-
-    .img-btn-texto div {
-        margin-bottom: 36px;
-        min-height: 53px;
-        position: absolute;
-        left: 130px;
-        width: 230px;    
-    }
-     
-
-    .img-texto-btn {
-        top: 310px;
-    }
-    .texto {
-        width: 350px;
-    }
-
-    .img-texto1 img {
-        width: 360px;
-        height: 271px
-    }
-
-    .textoi {
-        width: 350px;
-        margin-right: 35px;
     }
 
     .div-li-container3 {
@@ -684,60 +515,12 @@ nav img {
     .div-p-6 {
         width: 500px;
     }
-    
-
-    .img-texto1 img {
-        top: 750px;        
-        width: 74vw !important;
-        transform: translate(-50%, -50%);
-    }
-
-    .img-texto-btn {
-        transform: translate(-50%, -50%);
-        top: 1490px;
-        left: 52% !important;
-    }
 
     #linha-esquerda-cont4 {
         margin-bottom: 1000px;
         width: 600px;
         height: 600px;
     }    
-
-    .texto {
-        width: 78vw;
-    }
-
-    .textoi {
-        transform: translate(-54%, -46%);
-        position: absolute;
-        bottom: -30px;
-        width: 410px;
-    }
-
-    .img-texto1 img{
-        position: absolute;
-    }
-
-    .img-btn-texto {
-        right: 0;
-        top: -900px;
-        width: 370px;
-        height: 370px;
-        left: 0;
-    }
-
-    .img-texto1 {
-        flex-direction: column;
-        top: 290px;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .img-texto1 img {
-        width: 60vw;
-        height: 370px;
-    }
 
     .div-li-container3 {
         top: 1440px;
@@ -863,18 +646,6 @@ nav img {
         height: 75vh;
     }
 
-    .textoi {
-        width: 70vw;
-    }
-
-    .img-texto1 img {
-        top: 730px;
-    }
-
-    .img-texto1 h1 {
-        font-size: 2.9rem;
-    }
-
     #linha-esquerda-cont4 {
         width: 450px;
         margin-bottom: 1200px;
@@ -956,30 +727,6 @@ nav img {
         margin-right: 129px;
     }
 
-    .img-texto1 img {
-        top: 680px;
-        height: 280px;
-    }
-
-    .img-btn-texto div {
-        width: 185px;
-    }
-
-    .textoi {
-        transform: translate(-50%, -50%);
-        width: 250PX;
-        bottom: 0;
-    }
-
-    .img-texto1 h1 {
-        font-size: 2.5rem;
-    }
-
-    .img-btn-texto {
-        width: 310px;
-        height: 310px;
-    }
-
     #linha-esquerda-cont4 {
         width: 400px;
         margin-bottom: 1300px;
@@ -1050,23 +797,6 @@ nav img {
     .tenis-cont6 {
         width: 275px;
         height: 275px;
-    }
-
-    .textoi {
-        bottom: -50px;
-    }
-    .img-btn-texto {
-        width: 270px;
-        height: 270px;
-        top: -800px;
-    }
-
-    .img-btn-texto div {
-        left: 46px;
-    }    
-
-    .img-texto1 img {
-        top: 660px;
     }
 
     #linha-esquerda-cont4 {
@@ -1145,11 +875,6 @@ nav img {
     .linha-direita-6 img {
         margin-bottom: 740px
     }    
-
-    .img-btn-texto {
-        top: -780px;
-        left: -8%;
-    }
 
     #linha-2-header {
         width: 285px;
